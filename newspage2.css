@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headline {
+    width: 100%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.card {
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-heading {
+    margin: 0;
+    font-family:monospace;
+}
+
+.card-text {
+    margin: 10px 0 0;
+}
+.card p{
+    font-size: 13px;
+}
